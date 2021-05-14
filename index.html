@@ -1,0 +1,95 @@
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/css/style.css?v=a605d3cb1c3deb28d54753a7b34bca4e12104f92"
+      media="screen"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/css/print.css"
+      media="print"
+      type="text/css"
+    />
+
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+    <title>Whatsapp link Generator | anshul24mehta.github.io</title>
+    <meta name="generator" content="Jekyll v3.9.0" />
+    <meta property="og:title" content="Anshul Mehta - Whatsapp link Generator" />
+    <meta property="og:locale" content="en_US" />
+    <link rel="canonical" href="https://anshul24mehta.github.io/" />
+    <meta property="og:url" content="https://anshul24mehta.github.io/" />
+    <meta property="og:site_name" content="anshul24mehta.github.io" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Whatsapp link Generator" />
+    <script type="application/ld+json">
+      {
+        "headline": Anshul Mehta - Whatsapp link Generator",
+        "url": "https://anshul24mehta.github.io/",
+        "@type": "WebSite",
+        "name": "anshul24mehta.github.io",
+        "@context": "https://schema.org"
+      }
+    </script>
+    <!-- End Jekyll SEO tag -->
+  </head>
+  
+  <script >
+      function genLink() {
+          var num = document.getElementById("mobNum").value
+        console.log("number is : ", document.getElementById("mobNum").value);
+        var str_msg = '<br>Dear User Please click on below link to open whatsApp directly and start chatting..<br> <a href="https://wa.me/91'+ num +'"> <h1>Click Me</h1> </a>'
+        document.getElementById("output").innerHTML = str_msg;
+      }
+  </script>
+
+  <body>
+    <header>
+      <div class="inner">
+        <a href="https://anshul24mehta.github.io/">
+          <h1>anshul24mehta.github.io</h1>
+        </a>
+        <h2></h2>
+
+        <a href="https://github.com/anshul24mehta" class="button"
+          ><small>Follow me on</small> GitHub</a
+        >
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h2 id="welcome-to-github-pages">Welcome to Anshul's Page</h2>
+
+          <p>
+            Enter mobile mobile number to generate direct whatsApp messgae link without saving mobile number !!
+            Only work with Indian Mobile number as of now
+          </p>
+          <label for="mobNum">Enter Mobile Number</label>
+          <input type="text" name="mobileNum" id="mobNum" />
+          <button onclick="genLink()">Submit</button>
+
+          <div id="output">
+
+          </div>
+        </section>
+
+        <aside id="sidebar">
+          <p>Follow Me on <a href="https://www.twitter.com/anshul24mehta">Twitter</a> and <a href="https://in.linkedin.com/in/anshul24mehta">LinkedIn</a>.</p>
+        </aside>
+      </div>
+    </div>
+  </body>
+</html>
